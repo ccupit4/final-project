@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Mind For Music"
+  description: "A visual history of Billboard Hot 100 genres."
+  navbar:
+    background: "#111827"
+    foreground: "#f9fafb"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: project.qmd
+        text: Explore the data
+  page-footer:
+    left: "Mind For Music"
+    right: "Built with Quarto"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    smooth-scroll: true

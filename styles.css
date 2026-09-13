@@ -1,0 +1,10 @@
+/* Clean, minimal styling */
+body {
+  color: #1e293b;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+}

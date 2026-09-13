@@ -1,0 +1,236 @@
+---
+title: "Mind For Music"
+subtitle: "How popular music changes over time"
+page-layout: full
+toc: false
+execute:
+  echo: false
+---
+
+An analysis of how musical genres have evolved across the Billboard Hot 100, comparing all-time chart toppers against every year from 1958 to 2024. You can inspect the complete song-level data on the [Explore the data](project.qmd) page.
+
+## Billboard Greatest of All Time: Genre Breakdown
+
+```{r}
+#| message: false
+#| out-width: "100%"
+#| fig-height: 7
+library(tidyverse)
+library(plotly)
+
+billboard_all_time <- read_csv("data/billboard_all_time_top_100.csv")
+billboard_history <- read_csv("data/billboard_historical_genres.csv")
+
+genre_stats <- billboard_all_time |> 
+  group_by(Genre) |> 
+  summarize(
+    Count = n(),
+    Avg_Rank = round(mean(All_Time_Rank), 1),
+    Best_Rank = min(All_Time_Rank),
+    Top_Song = Song[which.min(All_Time_Rank)],
+    Top_Cover = Cover[which.min(All_Time_Rank)],
+    Top_Artist = Artist[which.min(All_Time_Rank)],
+    Worst_Rank = max(All_Time_Rank),
+    Lowest_Song = Song[which.max(All_Time_Rank)],
+    Lowest_Artist = Artist[which.max(All_Time_Rank)],
+    .groups = "drop"
+  ) |> 
+  mutate(Genre_Fct = fct_reorder(Genre, Count)) |> 
+  arrange(Genre_Fct)
+
+p_all_time <- ggplot(genre_stats, aes(
+  x = Count, 
+  y = Genre_Fct,
+  fill = Avg_Rank,
+  text = paste0(
+    "<b>", Genre, "</b><br>",
+    "Songs in All-Time Top 100: ", Count, "<br>",
+    "Average All-Time Rank: #", Avg_Rank, "<br>",
+    "Highest Hit: #", Best_Rank, " ", Top_Song, " (", Top_Artist, ")"
+  )
+)) +
+  geom_col(width = 0.72, color = "white", linewidth = 0.6, alpha = 0.92) +
+  geom_text(
+    aes(x = Count / 2, label = ifelse(Count >= 4, paste0(Count, " songs"), as.character(Count))), 
+    color = "white", 
+    fontface = "bold", 
+    size = 3.6
+  ) +
+  scale_fill_gradientn(
+    colors = c("#06b6d4", "#3b82f6", "#6366f1", "#a855f7", "#ec4899", "#f43f5e"),
+    name = "Avg Rank\n(#1 is top)"
+  ) +
+  scale_x_continuous(limits = c(0, 32), expand = expansion(mult = c(0, 0.03))) +
+  labs(
+    title = NULL,
+    x = "Number of Songs in All-Time Top 100",
+    y = NULL
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor = element_blank(),
+    axis.text.y = element_text(face = "bold", size = 11, color = "#1e293b"),
+    axis.text.x = element_text(color = "#64748b")
+  )
+
+img_list <- lapply(seq_len(nrow(genre_stats)), \(i) {
+  list(
+    source = genre_stats$Top_Cover[i],
+    xref = "x",
+    yref = "y",
+    x = genre_stats$Count[i] + 0.6,
+    y = i,
+    sizex = 1.3,
+    sizey = 0.72,
+    xanchor = "left",
+    yanchor = "middle",
+    sizing = "contain"
+  )
+})
+
+annot_list <- lapply(seq_len(nrow(genre_stats)), \(i) {
+  list(
+    xref = "x",
+    yref = "y",
+    x = genre_stats$Count[i] + 2.2,
+    y = i,
+    text = paste0("#", genre_stats$Best_Rank[i], " ", genre_stats$Top_Song[i]),
+    showarrow = FALSE,
+    xanchor = "left",
+    yanchor = "middle",
+    font = list(size = 11, color = "#1e293b")
+  )
+})
+
+ggplotly(p_all_time, height = 540, tooltip = "text") |> 
+  layout(
+    autosize = TRUE,
+    images = img_list, 
+    annotations = annot_list
+  ) |> 
+  config(responsive = TRUE)
+```
+
+## Genre Evolution: Annual Billboard Top 100 (1958 – 2024)
+
+```{r}
+#| message: false
+#| out-width: "100%"
+#| fig-height: 7
+
+genre_summary <- billboard_history |> 
+  group_by(Year, Genre) |> 
+  summarize(
+    Count = n(),
+    Top_Song = Song[which.min(Peak)],
+    Top_Artist = Artist[which.min(Peak)],
+    Best_Peak = min(Peak),
+    Lowest_Song = Song[which.max(Peak)],
+    Lowest_Artist = Artist[which.max(Peak)],
+    Worst_Peak = max(Peak),
+    .groups = "drop_last"
+  ) |> 
+  mutate(
+    Percent = round((Count / sum(Count)) * 100, 1),
+    Tooltip = ifelse(
+      Count == 1,
+      paste0(
+        "Year: ", Year, "<br>",
+        "Genre: ", Genre, "<br>",
+        "Share: ", Percent, "% (1 song)<br>",
+        "Top Hit: #", Best_Peak, " ", Top_Song, " (", Top_Artist, ")"
+      ),
+      paste0(
+        "Year: ", Year, "<br>",
+        "Genre: ", Genre, "<br>",
+        "Share: ", Percent, "% (", Count, " songs)<br>",
+        "Top Hit: #", Best_Peak, " ", Top_Song, " (", Top_Artist, ")"
+      )
+    )
+  ) |> 
+  ungroup()
+
+genre_colors <- c(
+  "Rock" = "#ef4444",
+  "Pop" = "#ec4899",
+  "R&B/Soul" = "#8b5cf6",
+  "Hip-Hop/Rap" = "#2563eb",
+  "Country" = "#f59e0b",
+  "Electronic/Dance" = "#06b6d4"
+)
+
+p <- ggplot(genre_summary, aes(
+  x = Year,
+  y = Percent,
+  fill = Genre,
+  text = Tooltip
+)) +
+  geom_col(position = "stack", width = 0.85, color = "white", linewidth = 0.2) +
+  scale_fill_manual(values = genre_colors) +
+  scale_y_continuous(labels = scales::percent_format(scale = 1)) +
+  scale_x_continuous(breaks = seq(1960, 2020, by = 5), expand = expansion(mult = c(0.01, 0.01))) +
+  labs(
+    title = NULL,
+    x = "Year",
+    y = "Share of Top Hits",
+    fill = "Genre"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    axis.text.x = element_text(face = "bold", size = 10, color = "#1e293b"),
+    axis.text.y = element_text(color = "#64748b"),
+    legend.position = "right",
+    panel.grid.minor = element_blank()
+  )
+
+ggplotly(p, height = 550, tooltip = "text") |> 
+  layout(autosize = TRUE) |> 
+  config(responsive = TRUE)
+```
+
+## Every Single Hit Song (1958 – 2024)
+
+An interactive chart displaying all 6,700 songs to reach the annual Billboard Top 100. Hover over any point to explore the song title, artist, rank, weeks on chart, and genre.
+
+```{r}
+#| message: false
+#| out-width: "100%"
+#| fig-height: 7
+
+p_all_songs <- ggplot(billboard_history, aes(
+  x = Year,
+  y = Year_Rank,
+  color = Genre,
+  text = paste0(
+    "<b>", Song, "</b><br>",
+    "Artist: ", Artist, "<br>",
+    "Year: ", Year, " (Rank #", Year_Rank, ")<br>",
+    "Peak: #", Peak, "<br>",
+    "Weeks Charted: ", Weeks, "<br>",
+    "Genre: ", Genre
+  )
+)) +
+  geom_point(alpha = 0.65, size = 1.2) +
+  # Reverse y-axis so rank #1 is at the top
+  scale_y_reverse(breaks = c(1, 25, 50, 75, 100), limits = c(101, 0)) +
+  scale_x_continuous(breaks = seq(1960, 2020, by = 5)) +
+  scale_color_manual(values = genre_colors) +
+  labs(
+    title = NULL,
+    x = "Year",
+    y = "Year-End Rank (1 = Top Hit)",
+    color = "Genre"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    axis.text = element_text(color = "#1e293b"),
+    panel.grid.minor = element_blank()
+  )
+
+ggplotly(p_all_songs, height = 550, tooltip = "text") |> 
+  layout(autosize = TRUE) |> 
+  config(responsive = TRUE)
+```
+
+
