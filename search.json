@@ -11,7 +11,7 @@
     "href": "index.html#how-technology-eras-transformed-music-genres-1958-2024",
     "title": "Mind For Music",
     "section": "How Technology Eras Transformed Music Genres (1958 – 2024)",
-    "text": "How Technology Eras Transformed Music Genres (1958 – 2024)\nHow did the transition from vinyl and transistor radios to MP3s, streaming, and social media alter what reached the top of the Billboard charts? Each bar below represents a defining era in music and tech distribution. Hover over each genre to explore its share of hits during that era."
+    "text": "How Technology Eras Transformed Music Genres (1958 – 2024)\nHow did the transition from vinyl and transistor radios to MP3s, streaming, and social media alter what reached the top of the Billboard charts? Below, each technology era displays the market share of major genres side-by-side. Hover over any bar to compare how genres rose or declined as technology evolved."
   },
   {
     "objectID": "index.html#genre-evolution-annual-billboard-top-100-1958-2024",
@@ -32,21 +32,21 @@
     "href": "exploration.html",
     "title": "Data Exploration",
     "section": "",
-    "text": "Which artists defined the Billboard charts across each decade? The chart below highlights the top 3 artists with the most year-end Hot 100 entries for every decade from the 1960s through the 2020s. Hover over an artist to see their biggest hit, or click any bar to pin their details below.\n\n\n\n\n\n\n\n💡 Click any artist bar above to pin their decade stats here."
+    "text": "Which artists have placed the greatest number of songs onto the year-end Billboard Hot 100? The lollipop chart below ranks the all-time top 15 hitmakers, with each marker representing an artist’s primary genre. Hover over any marker to see their biggest hit, or click to pin their details below.\n\n\n\n\n\n\n\n💡 Click any artist point above to pin their career Billboard stats here."
   },
   {
-    "objectID": "exploration.html#decade-hitmakers-the-top-artists-of-every-era",
-    "href": "exploration.html#decade-hitmakers-the-top-artists-of-every-era",
+    "objectID": "exploration.html#top-billboard-hitmakers-of-all-time",
+    "href": "exploration.html#top-billboard-hitmakers-of-all-time",
     "title": "Data Exploration",
     "section": "",
-    "text": "Which artists defined the Billboard charts across each decade? The chart below highlights the top 3 artists with the most year-end Hot 100 entries for every decade from the 1960s through the 2020s. Hover over an artist to see their biggest hit, or click any bar to pin their details below.\n\n\n\n\n\n\n\n💡 Click any artist bar above to pin their decade stats here."
+    "text": "Which artists have placed the greatest number of songs onto the year-end Billboard Hot 100? The lollipop chart below ranks the all-time top 15 hitmakers, with each marker representing an artist’s primary genre. Hover over any marker to see their biggest hit, or click to pin their details below.\n\n\n\n\n\n\n\n💡 Click any artist point above to pin their career Billboard stats here."
   },
   {
-    "objectID": "exploration.html#the-longevity-hall-of-fame-record-breaking-staying-power",
-    "href": "exploration.html#the-longevity-hall-of-fame-record-breaking-staying-power",
+    "objectID": "exploration.html#song-staying-power-vs.-chart-peak-interactive-bubble-view",
+    "href": "exploration.html#song-staying-power-vs.-chart-peak-interactive-bubble-view",
     "title": "Data Exploration",
-    "section": "The Longevity Hall of Fame: Record-Breaking Staying Power",
-    "text": "The Longevity Hall of Fame: Record-Breaking Staying Power\nMost hit songs remain on the Billboard Hot 100 for 15 to 20 weeks. A rare few capture the cultural zeitgeist and stay on the charts for almost an entire year or longer. The ranking below shows the longest-charting songs in Billboard history (45+ weeks). Hover or click any song to view its peak position and run.\n\n\n\n\n\n\n\n💡 Click any record-breaking song bar above to pin its chart run details here."
+    "section": "Song Staying Power vs. Chart Peak: Interactive Bubble View",
+    "text": "Song Staying Power vs. Chart Peak: Interactive Bubble View\nHow do a song’s peak ranking and chart longevity relate to overall success? In the bubble chart below, every point is a Billboard Hot 100 hit. The bubble size represents total chart points earned, and the color indicates genre. Click any song to lock its details in the card below.\n\n\n\n\n\n\n\n💡 Click any song bubble above to pin its chart run details here."
   },
   {
     "objectID": "project.html",
