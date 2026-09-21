@@ -44,23 +44,23 @@
   {
     "objectID": "exploration.html",
     "href": "exploration.html",
-    "title": "Data Exploration",
+    "title": "Genre Exploration",
     "section": "",
-    "text": "Who are the most successful artists in Billboard history? Across 67 years and 6,700 year-end hits, these 20 legends placed more songs on the annual charts than anyone else.\nHover over any bar to see how many #1 hits and top-10 songs they achieved, plus their signature chart record. Click on any artist to lock their career spotlight into the card below.\n\n\n\n\n\n\n\n💡 Click any artist above to lock their chart highlights and signature hit here."
+    "text": "Explore the entire musical landscape across 67 years of Billboard history. Each colored region represents a genre’s share of all 6,700 year-end hits, sub-divided by its biggest hitmakers.\nClick any genre to zoom directly into its territory and see its top artists, hit counts, and signature songs. Click the top bar to zoom back out, or hover over any block for quick stats.\n\n\n\n\n\n\n\n💡 Click any genre region or artist block above to lock its complete details here."
   },
   {
-    "objectID": "exploration.html#the-hitmakers-20-artists-with-the-most-billboard-hits-1958-2024",
-    "href": "exploration.html#the-hitmakers-20-artists-with-the-most-billboard-hits-1958-2024",
-    "title": "Data Exploration",
+    "objectID": "exploration.html#the-genre-landscape-map-all-time-hits-hitmakers",
+    "href": "exploration.html#the-genre-landscape-map-all-time-hits-hitmakers",
+    "title": "Genre Exploration",
     "section": "",
-    "text": "Who are the most successful artists in Billboard history? Across 67 years and 6,700 year-end hits, these 20 legends placed more songs on the annual charts than anyone else.\nHover over any bar to see how many #1 hits and top-10 songs they achieved, plus their signature chart record. Click on any artist to lock their career spotlight into the card below.\n\n\n\n\n\n\n\n💡 Click any artist above to lock their chart highlights and signature hit here."
+    "text": "Explore the entire musical landscape across 67 years of Billboard history. Each colored region represents a genre’s share of all 6,700 year-end hits, sub-divided by its biggest hitmakers.\nClick any genre to zoom directly into its territory and see its top artists, hit counts, and signature songs. Click the top bar to zoom back out, or hover over any block for quick stats.\n\n\n\n\n\n\n\n💡 Click any genre region or artist block above to lock its complete details here."
   },
   {
-    "objectID": "exploration.html#chart-staying-power-how-song-longevity-exploded-1960s-2020s",
-    "href": "exploration.html#chart-staying-power-how-song-longevity-exploded-1960s-2020s",
-    "title": "Data Exploration",
-    "section": "Chart Staying Power: How Song Longevity Exploded (1960s – 2020s)",
-    "text": "Chart Staying Power: How Song Longevity Exploded (1960s – 2020s)\nHow long does a song stay popular? In the 1960s, the average hit stayed on the Hot 100 for just 14 weeks before radio stations moved on. Today, mega-hits linger for 24 to 56 weeks, setting all-time chart endurance records.\nHover over any point to see the average staying power and the longest-running song of that decade. Click any point to pin its decade record in the card below.\n\n\n\n\n\n\n\n💡 Click any decade point above to pin its longevity record holder and genre averages here."
+    "objectID": "exploration.html#genre-popularity-over-time-1960s-2020s",
+    "href": "exploration.html#genre-popularity-over-time-1960s-2020s",
+    "title": "Genre Exploration",
+    "section": "Genre Popularity Over Time (1960s – 2020s)",
+    "text": "Genre Popularity Over Time (1960s – 2020s)\nHow has the popularity of each genre shifted across the decades? Use the genre buttons below to isolate a specific genre or compare them all at once. Click on any decade point to lock its stats and top songs into the card below.\n\n\n\n\n\n\n\n💡 Click any decade point above to pin its #1 hits and top songs here."
   },
   {
     "objectID": "project.html",
