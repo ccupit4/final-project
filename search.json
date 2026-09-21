@@ -7,11 +7,11 @@
     "text": "An analysis of how musical genres have evolved across the Billboard Hot 100, comparing all-time chart toppers against every year from 1958 to 2024. You can inspect the complete song-level data on the Explore the data page."
   },
   {
-    "objectID": "index.html#technology-social-media-vs.-music-genre-popularity-1958-2024",
-    "href": "index.html#technology-social-media-vs.-music-genre-popularity-1958-2024",
+    "objectID": "index.html#how-technology-eras-transformed-music-genres-1958-2024",
+    "href": "index.html#how-technology-eras-transformed-music-genres-1958-2024",
     "title": "Mind For Music",
-    "section": "Technology & Social Media vs. Music Genre Popularity (1958 – 2024)",
-    "text": "Technology & Social Media vs. Music Genre Popularity (1958 – 2024)\nHow has the rise of personal computing, the internet, social media, and streaming aligned with shifts in musical taste? The two charts below share the same timeline: the top panel tracks the rise of key technologies and platforms, while the bottom panel shows the market share of major music genres on the Billboard Hot 100.\n\n\nWarning: Specifying width/height in layout() is now deprecated.\nPlease specify in ggplotly() or plot_ly()"
+    "section": "How Technology Eras Transformed Music Genres (1958 – 2024)",
+    "text": "How Technology Eras Transformed Music Genres (1958 – 2024)\nHow did the transition from vinyl and transistor radios to MP3s, streaming, and social media alter what reached the top of the Billboard charts? Each bar below represents a defining era in music and tech distribution. Hover over each genre to explore its share of hits during that era."
   },
   {
     "objectID": "index.html#genre-evolution-annual-billboard-top-100-1958-2024",
@@ -32,21 +32,21 @@
     "href": "exploration.html",
     "title": "Data Exploration",
     "section": "",
-    "text": "How has the distribution of musical genres shifted across each decade since the Billboard Hot 100 began? The heatmap below shows the concentration of year-end top hits. Darker blue indicates more hits in that decade. Hover over any tile to see the top song and average staying power, or click to pin the details below.\n\n\n\n\n\n\n\n💡 Click any decade tile above to pin its details here."
+    "text": "Which artists defined the Billboard charts across each decade? The chart below highlights the top 3 artists with the most year-end Hot 100 entries for every decade from the 1960s through the 2020s. Hover over an artist to see their biggest hit, or click any bar to pin their details below.\n\n\n\n\n\n\n\n💡 Click any artist bar above to pin their decade stats here."
   },
   {
-    "objectID": "exploration.html#genre-dominance-across-decades",
-    "href": "exploration.html#genre-dominance-across-decades",
+    "objectID": "exploration.html#decade-hitmakers-the-top-artists-of-every-era",
+    "href": "exploration.html#decade-hitmakers-the-top-artists-of-every-era",
     "title": "Data Exploration",
     "section": "",
-    "text": "How has the distribution of musical genres shifted across each decade since the Billboard Hot 100 began? The heatmap below shows the concentration of year-end top hits. Darker blue indicates more hits in that decade. Hover over any tile to see the top song and average staying power, or click to pin the details below.\n\n\n\n\n\n\n\n💡 Click any decade tile above to pin its details here."
+    "text": "Which artists defined the Billboard charts across each decade? The chart below highlights the top 3 artists with the most year-end Hot 100 entries for every decade from the 1960s through the 2020s. Hover over an artist to see their biggest hit, or click any bar to pin their details below.\n\n\n\n\n\n\n\n💡 Click any artist bar above to pin their decade stats here."
   },
   {
-    "objectID": "exploration.html#chart-staying-power-weeks-on-chart-by-genre",
-    "href": "exploration.html#chart-staying-power-weeks-on-chart-by-genre",
+    "objectID": "exploration.html#the-longevity-hall-of-fame-record-breaking-staying-power",
+    "href": "exploration.html#the-longevity-hall-of-fame-record-breaking-staying-power",
     "title": "Data Exploration",
-    "section": "Chart Staying Power: Weeks on Chart by Genre",
-    "text": "Chart Staying Power: Weeks on Chart by Genre\nWhich genres produce songs that linger on the charts the longest? The box plot below illustrates the spread, median, and outliers for weeks charted across each genre. Hover over a box to inspect summary stats, or click to pin information below.\n\n\n\n\n\n\n\n💡 Click any box or outlier above to pin its information here."
+    "section": "The Longevity Hall of Fame: Record-Breaking Staying Power",
+    "text": "The Longevity Hall of Fame: Record-Breaking Staying Power\nMost hit songs remain on the Billboard Hot 100 for 15 to 20 weeks. A rare few capture the cultural zeitgeist and stay on the charts for almost an entire year or longer. The ranking below shows the longest-charting songs in Billboard history (45+ weeks). Hover or click any song to view its peak position and run.\n\n\n\n\n\n\n\n💡 Click any record-breaking song bar above to pin its chart run details here."
   },
   {
     "objectID": "project.html",
