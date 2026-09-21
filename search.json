@@ -11,7 +11,7 @@
     "href": "index.html#how-technology-eras-transformed-music-genres-1958-2024",
     "title": "Mind For Music",
     "section": "How Technology Eras Transformed Music Genres (1958 – 2024)",
-    "text": "How Technology Eras Transformed Music Genres (1958 – 2024)\nHow did the transition from vinyl and transistor radios to MP3s, streaming, and social media alter what reached the top of the Billboard charts? The heatmap below shows the exact market share of each genre across the five defining technology eras. Darker blue indicates higher dominance in that era."
+    "text": "How Technology Eras Transformed Music Genres (1958 – 2024)\nHow did music technology change what listeners heard? Below, follow each genre’s market share as music consumption shifted from vinyl records and cassette tapes to MP3s, social media, and modern streaming. Hover over any point to explore key tech inventions and hit counts for that era."
   },
   {
     "objectID": "index.html#genre-evolution-annual-billboard-top-100-1958-2024",
@@ -26,6 +26,27 @@
     "title": "Mind For Music",
     "section": "Every Single Hit Song (1958 – 2024)",
     "text": "Every Single Hit Song (1958 – 2024)\nAn interactive chart displaying all 6,700 songs to reach the annual Billboard Top 100. Hover over any point to explore the song title, artist, rank, weeks on chart, and genre."
+  },
+  {
+    "objectID": "story.html",
+    "href": "story.html",
+    "title": "The Story: Music Across America",
+    "section": "",
+    "text": "Music in the United States has always been deeply regional. From Motown in Detroit to Grunge in Seattle, Nashville Country, and Atlanta Trap, different states have pioneered and championed distinctive musical genres throughout history.\nUse the decade slider or Play button below to watch how America’s regional genre landscape transformed across seven decades. Hover over any state for details, or click on a state to pin its musical story in the info card below.\n\n\n\n\n\n\nGenre Color Guide: ■ Rock  |  ■ Pop  |  ■ Hip-Hop/Rap  |  ■ R&B/Soul  |  ■ Country  |  ■ Electronic/Dance\n\n\n\n\n\n\n\n\n\n\n💡 Click any state on the map above to pin its regional genre story and artist profile here."
+  },
+  {
+    "objectID": "story.html#regional-genre-dominance-over-time-1960s-2020s",
+    "href": "story.html#regional-genre-dominance-over-time-1960s-2020s",
+    "title": "The Story: Music Across America",
+    "section": "",
+    "text": "Music in the United States has always been deeply regional. From Motown in Detroit to Grunge in Seattle, Nashville Country, and Atlanta Trap, different states have pioneered and championed distinctive musical genres throughout history.\nUse the decade slider or Play button below to watch how America’s regional genre landscape transformed across seven decades. Hover over any state for details, or click on a state to pin its musical story in the info card below.\n\n\n\n\n\n\nGenre Color Guide: ■ Rock  |  ■ Pop  |  ■ Hip-Hop/Rap  |  ■ R&B/Soul  |  ■ Country  |  ■ Electronic/Dance\n\n\n\n\n\n\n\n\n\n\n💡 Click any state on the map above to pin its regional genre story and artist profile here."
+  },
+  {
+    "objectID": "story.html#key-chapters-in-american-genre-history",
+    "href": "story.html#key-chapters-in-american-genre-history",
+    "title": "The Story: Music Across America",
+    "section": "Key Chapters in American Genre History",
+    "text": "Key Chapters in American Genre History\n\n\n📻 1960s – 1970s: The Foundations\n\nRock & Folk: The West Coast (California) spearheaded surf rock and psychedelic counterculture, while Midwest garage rock took hold.\nR&B & Motown: Detroit and Chicago created the sound of young America with Motown and soul classics.\nThe Southern Country Heartland: Tennessee and Texas anchored traditional country music through the Grand Ole Opry and Outlaw country movements.\n\n\n\n📺 1980s – 1990s: The Revolutions\n\nMTV & Rock Anthems: Rock dominated coastal and midwestern airwaves in the 1980s before Seattle grunge completely reset the alternative rock paradigm in the 90s.\nThe Rise of Hip-Hop: Born on New York City block parties, hip-hop expanded into a national powerhouse driven by the iconic East Coast vs. West Coast rivalry.\nStadium Country: 1990s country crossover artists like Garth Brooks turned country into a massive stadium attraction.\n\n\n\n💻 2000s – 2010s: Digital Downloads & Streaming\n\nHip-Hop Becomes Mainstream: Atlanta emerged as the cultural epicenter of rap, with Southern trap music dominating streaming playlists across the nation.\nEDM Crossover: Festival electronic dance music swept the Southwest, California, and Florida clubs.\nDigital Pop: Pop superstars like Beyoncé, Taylor Swift, and Katy Perry dominated top-40 digital download charts.\n\n\n\n📱 2020s: Viral Feeds & Genre Blending\n\nStreaming Country Resurgence: Modern country surged across more states than ever, breaking Billboard Hot 100 all-time streaming records.\nTikTok & Algorithm Hits: Pop and rap viral trends transcend state lines faster than ever, enabling regional artists to reach global audiences overnight."
   },
   {
     "objectID": "exploration.html",
