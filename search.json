@@ -7,11 +7,11 @@
     "text": "An analysis of how musical genres have evolved across the Billboard Hot 100, comparing all-time chart toppers against every year from 1958 to 2024. You can inspect the complete song-level data on the Explore the data page."
   },
   {
-    "objectID": "index.html#billboard-greatest-of-all-time-genre-breakdown",
-    "href": "index.html#billboard-greatest-of-all-time-genre-breakdown",
+    "objectID": "index.html#the-rise-of-technology-and-social-media-1958-2024",
+    "href": "index.html#the-rise-of-technology-and-social-media-1958-2024",
     "title": "Mind For Music",
-    "section": "Billboard Greatest of All Time: Genre Breakdown",
-    "text": "Billboard Greatest of All Time: Genre Breakdown"
+    "section": "The Rise of Technology and Social Media (1958 – 2024)",
+    "text": "The Rise of Technology and Social Media (1958 – 2024)\nHow music is distributed and consumed has radically shifted over the decades — from transistor radios and home computers to the internet, social media platforms, and streaming services. Hover over the lines to explore how adoption rates have surged."
   },
   {
     "objectID": "index.html#genre-evolution-annual-billboard-top-100-1958-2024",
@@ -26,6 +26,27 @@
     "title": "Mind For Music",
     "section": "Every Single Hit Song (1958 – 2024)",
     "text": "Every Single Hit Song (1958 – 2024)\nAn interactive chart displaying all 6,700 songs to reach the annual Billboard Top 100. Hover over any point to explore the song title, artist, rank, weeks on chart, and genre."
+  },
+  {
+    "objectID": "exploration.html",
+    "href": "exploration.html",
+    "title": "Data Exploration",
+    "section": "",
+    "text": "Which artists have spent the most time dominating the annual Billboard charts? Hover over each bar to see an artist’s total charted hits and top genre."
+  },
+  {
+    "objectID": "exploration.html#top-billboard-hitmakers-1958-2024",
+    "href": "exploration.html#top-billboard-hitmakers-1958-2024",
+    "title": "Data Exploration",
+    "section": "",
+    "text": "Which artists have spent the most time dominating the annual Billboard charts? Hover over each bar to see an artist’s total charted hits and top genre."
+  },
+  {
+    "objectID": "exploration.html#chart-longevity-weeks-on-chart-vs.-peak-rank",
+    "href": "exploration.html#chart-longevity-weeks-on-chart-vs.-peak-rank",
+    "title": "Data Exploration",
+    "section": "Chart Longevity: Weeks on Chart vs. Peak Rank",
+    "text": "Chart Longevity: Weeks on Chart vs. Peak Rank\nExplore how long songs stay on the chart compared to how high they peaked. Hover over points to see individual song details."
   },
   {
     "objectID": "project.html",
