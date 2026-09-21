@@ -11,7 +11,7 @@
     "href": "index.html#how-technology-eras-transformed-music-genres-1958-2024",
     "title": "Mind For Music",
     "section": "How Technology Eras Transformed Music Genres (1958 – 2024)",
-    "text": "How Technology Eras Transformed Music Genres (1958 – 2024)\nHow did the transition from vinyl and transistor radios to MP3s, streaming, and social media alter what reached the top of the Billboard charts? Below, each technology era displays the market share of major genres side-by-side. Hover over any bar to compare how genres rose or declined as technology evolved."
+    "text": "How Technology Eras Transformed Music Genres (1958 – 2024)\nHow did the transition from vinyl and transistor radios to MP3s, streaming, and social media alter what reached the top of the Billboard charts? Each bar below represents a defining era in music and tech distribution, with all 6 genres stacked to 100%. Hover over any segment to explore its share of hits during that era."
   },
   {
     "objectID": "index.html#genre-evolution-annual-billboard-top-100-1958-2024",
@@ -32,21 +32,21 @@
     "href": "exploration.html",
     "title": "Data Exploration",
     "section": "",
-    "text": "Which artists have placed the greatest number of songs onto the year-end Billboard Hot 100? The lollipop chart below ranks the all-time top 15 hitmakers, with each marker representing an artist’s primary genre. Hover over any marker to see their biggest hit, or click to pin their details below.\n\n\n\n\n\n\n\n💡 Click any artist point above to pin their career Billboard stats here."
+    "text": "Which genres have produced the greatest number of hits and chart-topping songs in Billboard history? The lollipop chart below ranks the 6 major genres by their total year-end Hot 100 appearances (1958–2024). Hover over any point to inspect #1 songs and average staying power, or click to pin the details below.\n\n\n\n\n\n\n\n💡 Click any genre point above to pin its complete popularity breakdown here."
   },
   {
-    "objectID": "exploration.html#top-billboard-hitmakers-of-all-time",
-    "href": "exploration.html#top-billboard-hitmakers-of-all-time",
+    "objectID": "exploration.html#all-time-genre-popularity-hits-1-songs",
+    "href": "exploration.html#all-time-genre-popularity-hits-1-songs",
     "title": "Data Exploration",
     "section": "",
-    "text": "Which artists have placed the greatest number of songs onto the year-end Billboard Hot 100? The lollipop chart below ranks the all-time top 15 hitmakers, with each marker representing an artist’s primary genre. Hover over any marker to see their biggest hit, or click to pin their details below.\n\n\n\n\n\n\n\n💡 Click any artist point above to pin their career Billboard stats here."
+    "text": "Which genres have produced the greatest number of hits and chart-topping songs in Billboard history? The lollipop chart below ranks the 6 major genres by their total year-end Hot 100 appearances (1958–2024). Hover over any point to inspect #1 songs and average staying power, or click to pin the details below.\n\n\n\n\n\n\n\n💡 Click any genre point above to pin its complete popularity breakdown here."
   },
   {
-    "objectID": "exploration.html#song-staying-power-vs.-chart-peak-interactive-bubble-view",
-    "href": "exploration.html#song-staying-power-vs.-chart-peak-interactive-bubble-view",
+    "objectID": "exploration.html#genre-popularity-trajectory-across-decades-1960s-2020s",
+    "href": "exploration.html#genre-popularity-trajectory-across-decades-1960s-2020s",
     "title": "Data Exploration",
-    "section": "Song Staying Power vs. Chart Peak: Interactive Bubble View",
-    "text": "Song Staying Power vs. Chart Peak: Interactive Bubble View\nHow do a song’s peak ranking and chart longevity relate to overall success? In the bubble chart below, every point is a Billboard Hot 100 hit. The bubble size represents total chart points earned, and the color indicates genre. Click any song to lock its details in the card below.\n\n\n\n\n\n\n\n💡 Click any song bubble above to pin its chart run details here."
+    "section": "Genre Popularity Trajectory Across Decades (1960s – 2020s)",
+    "text": "Genre Popularity Trajectory Across Decades (1960s – 2020s)\nHow has the popularity of each genre risen and fallen over time? The trend lines below show the number of Billboard Hot 100 hits achieved by each genre during each decade. Click on any decade point to lock its stats in the card below, or use the legend to isolate individual genres.\n\n\n\n\n\n\n\n💡 Click any decade point above to pin its genre stats here."
   },
   {
     "objectID": "project.html",
