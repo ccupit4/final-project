@@ -11,7 +11,7 @@
     "href": "index.html#how-technology-eras-transformed-music-genres-1958-2024",
     "title": "Mind For Music",
     "section": "How Technology Eras Transformed Music Genres (1958 – 2024)",
-    "text": "How Technology Eras Transformed Music Genres (1958 – 2024)\nHow did the transition from vinyl and transistor radios to MP3s, streaming, and social media alter what reached the top of the Billboard charts? Each bar below represents a defining era in music and tech distribution, with all 6 genres stacked to 100%. Hover over any segment to explore its share of hits during that era."
+    "text": "How Technology Eras Transformed Music Genres (1958 – 2024)\nHow did the transition from vinyl and transistor radios to MP3s, streaming, and social media alter what reached the top of the Billboard charts? The heatmap below shows the exact market share of each genre across the five defining technology eras. Darker blue indicates higher dominance in that era."
   },
   {
     "objectID": "index.html#genre-evolution-annual-billboard-top-100-1958-2024",
@@ -32,14 +32,14 @@
     "href": "exploration.html",
     "title": "Data Exploration",
     "section": "",
-    "text": "Which genres have produced the greatest number of hits and chart-topping songs in Billboard history? The lollipop chart below ranks the 6 major genres by their total year-end Hot 100 appearances (1958–2024). Hover over any point to inspect #1 songs and average staying power, or click to pin the details below.\n\n\n\n\n\n\n\n💡 Click any genre point above to pin its complete popularity breakdown here."
+    "text": "Across the entire 67-year history of the Billboard Hot 100, which genres have claimed the largest share of hits? The interactive donut chart below displays the proportion of all 6,700 year-end entries by genre. Hover over any slice to inspect #1 songs, top-10 hits, and record-holding songs, or click to lock its stats in the card below.\n\n\n\n\n\n\n\n💡 Click any genre slice above to pin its complete popularity breakdown here."
   },
   {
-    "objectID": "exploration.html#all-time-genre-popularity-hits-1-songs",
-    "href": "exploration.html#all-time-genre-popularity-hits-1-songs",
+    "objectID": "exploration.html#all-time-billboard-genre-market-share-1958-2024",
+    "href": "exploration.html#all-time-billboard-genre-market-share-1958-2024",
     "title": "Data Exploration",
     "section": "",
-    "text": "Which genres have produced the greatest number of hits and chart-topping songs in Billboard history? The lollipop chart below ranks the 6 major genres by their total year-end Hot 100 appearances (1958–2024). Hover over any point to inspect #1 songs and average staying power, or click to pin the details below.\n\n\n\n\n\n\n\n💡 Click any genre point above to pin its complete popularity breakdown here."
+    "text": "Across the entire 67-year history of the Billboard Hot 100, which genres have claimed the largest share of hits? The interactive donut chart below displays the proportion of all 6,700 year-end entries by genre. Hover over any slice to inspect #1 songs, top-10 hits, and record-holding songs, or click to lock its stats in the card below.\n\n\n\n\n\n\n\n💡 Click any genre slice above to pin its complete popularity breakdown here."
   },
   {
     "objectID": "exploration.html#genre-popularity-trajectory-across-decades-1960s-2020s",
