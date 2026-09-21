@@ -11,7 +11,7 @@
     "href": "index.html#technology-social-media-vs.-music-genre-popularity-1958-2024",
     "title": "Mind For Music",
     "section": "Technology & Social Media vs. Music Genre Popularity (1958 – 2024)",
-    "text": "Technology & Social Media vs. Music Genre Popularity (1958 – 2024)\nHow has the rise of personal computing, the internet, social media, and streaming aligned with shifts in musical taste? In the chart below, solid lines represent the annual share of Billboard Top 100 hits for major genres, while dashed lines show technology and social media adoption. Click any genre or technology in the legend to isolate or compare them."
+    "text": "Technology & Social Media vs. Music Genre Popularity (1958 – 2024)\nHow has the rise of personal computing, the internet, social media, and streaming aligned with shifts in musical taste? The two charts below share the same timeline: the top panel tracks the rise of key technologies and platforms, while the bottom panel shows the market share of major music genres on the Billboard Hot 100.\n\n\nWarning: Specifying width/height in layout() is now deprecated.\nPlease specify in ggplotly() or plot_ly()"
   },
   {
     "objectID": "index.html#genre-evolution-annual-billboard-top-100-1958-2024",
@@ -32,21 +32,21 @@
     "href": "exploration.html",
     "title": "Data Exploration",
     "section": "",
-    "text": "Which artists have spent the most time dominating the annual Billboard charts? Hover over each bar to see an artist’s total charted hits and top genre.\n\n\n\n\n\n\n\n💡 Click any bar above to pin its details here."
+    "text": "How has the distribution of musical genres shifted across each decade since the Billboard Hot 100 began? The heatmap below shows the concentration of year-end top hits. Darker blue indicates more hits in that decade. Hover over any tile to see the top song and average staying power, or click to pin the details below.\n\n\n\n\n\n\n\n💡 Click any decade tile above to pin its details here."
   },
   {
-    "objectID": "exploration.html#top-billboard-hitmakers-1958-2024",
-    "href": "exploration.html#top-billboard-hitmakers-1958-2024",
+    "objectID": "exploration.html#genre-dominance-across-decades",
+    "href": "exploration.html#genre-dominance-across-decades",
     "title": "Data Exploration",
     "section": "",
-    "text": "Which artists have spent the most time dominating the annual Billboard charts? Hover over each bar to see an artist’s total charted hits and top genre.\n\n\n\n\n\n\n\n💡 Click any bar above to pin its details here."
+    "text": "How has the distribution of musical genres shifted across each decade since the Billboard Hot 100 began? The heatmap below shows the concentration of year-end top hits. Darker blue indicates more hits in that decade. Hover over any tile to see the top song and average staying power, or click to pin the details below.\n\n\n\n\n\n\n\n💡 Click any decade tile above to pin its details here."
   },
   {
-    "objectID": "exploration.html#chart-longevity-weeks-on-chart-vs.-peak-rank",
-    "href": "exploration.html#chart-longevity-weeks-on-chart-vs.-peak-rank",
+    "objectID": "exploration.html#chart-staying-power-weeks-on-chart-by-genre",
+    "href": "exploration.html#chart-staying-power-weeks-on-chart-by-genre",
     "title": "Data Exploration",
-    "section": "Chart Longevity: Weeks on Chart vs. Peak Rank",
-    "text": "Chart Longevity: Weeks on Chart vs. Peak Rank\nExplore how long songs stay on the chart compared to how high they peaked. Hover over points to see individual song details, or click any point to view its information below.\n\n\n\n\n\n\n\n💡 Click any song point above to pin its details here."
+    "section": "Chart Staying Power: Weeks on Chart by Genre",
+    "text": "Chart Staying Power: Weeks on Chart by Genre\nWhich genres produce songs that linger on the charts the longest? The box plot below illustrates the spread, median, and outliers for weeks charted across each genre. Hover over a box to inspect summary stats, or click to pin information below.\n\n\n\n\n\n\n\n💡 Click any box or outlier above to pin its information here."
   },
   {
     "objectID": "project.html",
